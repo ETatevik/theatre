@@ -1,0 +1,40 @@
+* {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0px; }
+
+*:hover {
+  text-decoration: none !important; }
+
+.et-btn {
+  background: transparent;
+  border: 0;
+  cursor: pointer; }
+
+/*debugging*/
+@media (min-width: 1366px) {
+  .container {
+    max-width: 1300px; } }
+
+@media (min-width: 1466px) {
+  .container {
+    max-width: 1400px; } }
+
+@media (min-width: 1566px) {
+  .container {
+    max-width: 1500px; } }
+
+@media (min-width: 1666px) {
+  .container {
+    max-width: 1600px; } }
+
+@media (min-width: 1766px) {
+  .container {
+    max-width: 1700px; } }
+
+@media (min-width: 1866px) {
+  .container {
+    max-width: 1800px; } }
+
+@media (min-width: 1966px) {
+  .container {
+    max-width: 1900px; } }

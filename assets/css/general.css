@@ -1,0 +1,14 @@
+/* Main */
+@import "layouts/main.css";
+
+/* Menu */
+@import "layouts/menu.css";
+
+/* Header */
+@import "layouts/header.css";
+
+/* Footer */
+@import "layouts/footer.css";
+
+/* Index page */
+@import "pages/index.css";
