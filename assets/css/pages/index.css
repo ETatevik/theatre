@@ -130,7 +130,8 @@ h2.th-head-title{
 	color: #FFFFFF;
 	margin-bottom: 15px;
 }
-.card-soc-pages{
+.card-soc-pages,
+.contact-soc-pages {
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -154,6 +155,128 @@ h2.th-head-title{
 .card-soc-pages li > a >svg{
 	width: 19.69px;
 	height: 22.56px;
+}
+/* CONTACT BLOCK */
+#th-contact{
+	background: rgba(227, 226, 223, 0.25);
+}
+.contact-header{
+	height: 100%;
+	text-align: center;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	padding: 100px 0;
+}
+.contact-header > h2{
+	color: #766D62;
+	position: relative;
+	padding-bottom: 40px;
+	margin-bottom: 50px;
+}
+.contact-header > h2::after{
+	content: '';
+	width: 40%;
+	height: 1px;
+	position: absolute;
+	bottom: 0;
+	left: calc(50% - 20%);
+	background: #766D62;
+}
+.contact-soc-pages li > a{
+	display: block;
+	padding: 12px 18px;
+	margin: 0 13px;
+	transition: .3s;
+	border: 2px solid #766D62;
+}
+.contact-soc-pages li > a:hover{
+	background: #766D62;
+}
+.contact-soc-pages li > a:hover >svg > path{
+	fill: #ffffff !important;
+} 
+.contact-soc-pages li > a >svg{
+	width: 28.13px;
+	height: 35.6px;
+}
+#th-map{
+	height: 300px;
+}
+#th-map > iframe{
+	height: 100%;
+	width: 100%;
+}
+.contact-form{
+	padding: 35px 0;
+}
+.form-row{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-bottom: 22px;
+}
+.form-col-4{
+	width: 40%;
+	margin-right: 40px;
+}
+.form-col-6{
+	width: 60%;
+}
+.form-col-4 > input,
+.form-col-6 > input,
+.contact-message{
+	width: 100%;
+	background: rgba(124, 115, 105, 0.6);
+	padding:8px 25px ;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 35px;
+	color: #FFFFFF;
+}
+.form-col-4 > input::placeholder,
+.form-col-6 > input::placeholder,
+.contact-message::placeholder{
+	color: #ffffff;
+}
+.contact-message{
+	resize: none;
+	min-height: 200px;
+}
+.form-col-4 > input:focus::placeholder,
+.form-col-6 > input:focus::placeholder,
+.contact-message:focus::placeholder{
+	color: transparent;
+}
+.contact-btn{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 35px;
+	text-align: center;
+	color: #7C7369;
+	padding: 12px;
+	display: block;
+	border: 2px solid #7C7369;
+	transition: .2s;
+	width: 100%;
+}
+.contact-btn:hover{
+	background: #7C7369;
+	color: #ffffff;
 }
 /* media */
 @media (max-width: 992px) {
